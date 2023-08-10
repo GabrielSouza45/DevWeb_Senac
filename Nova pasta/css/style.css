@@ -1,0 +1,149 @@
+.central{
+    background-color: rgb(44, 71, 71);
+    border-radius: 20px 20px 20px 20px;
+}
+.div1 {
+    width: 100wv;
+    background-color: #000;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+    border: solid 5px rgb(223, 99, 99);
+    box-shadow: #fff 0px 10px 10px;
+    
+}
+h1{
+    color: #fff;
+    text-align: center;
+    text-shadow: #fff 2px 2px 25px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 8px;
+}
+
+.div2{
+    width: 100wv;
+    height: 80vh;
+    border-radius: 0px 0px 20px 20px;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: center;
+    padding: 10px;
+    border: solid 5px #888;
+}
+.lorem{
+    margin: 0;
+    padding: 20px;
+    color: #fff;
+    font-size: 23px;
+    text-align: center;
+    line-height: 50px;
+}   
+.div2_1, .div2_2, .div2_3{
+    width: 250px;
+    height: 350px;
+    border: solid 5px rgb(214, 184, 184);
+    margin-left: 5px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.39) 2px 2px 20px;
+    background-color: rgb(60, 90, 90);
+    cursor: pointer;
+    
+}
+
+.rgb{
+    animation: rgb 5s ease-in-out infinite ;
+}
+
+.rgbTotal{
+    animation: rgbTotal 5s ease-in-out infinite  ;
+}
+
+.div2_1:hover, .div2_2:hover, .div2_3:hover{
+    transition: .4s;
+    background-color: rgb(49, 75, 75);
+    box-shadow: rgba(255, 255, 255, 0.719) 2px 2px 20px;
+}
+
+@keyframes rgb {
+    0% {
+        bottom: 0;
+        border: solid 5px rgb(255, 0, 0);
+    }
+
+    30% {
+        bottom: 140px;
+        border: solid 5px rgb(198, 243, 0);
+    }
+
+    40% {
+        bottom: 150px;
+        border: solid 5px rgb(21, 255, 0);
+    }
+
+    50% {
+        bottom: 150px;
+        border: solid 5px rgb(0, 255, 242);
+    }
+
+    60% {
+        bottom: 150px;
+        border: solid 5px rgb(4, 0, 255);
+    }
+
+    70% {
+        bottom: 140px;
+        border: solid 5px rgb(255, 0, 234);
+    }
+
+    100% {
+        bottom: 0;
+        border: solid 5px rgb(255, 0, 85);
+    }
+}
+
+@keyframes rgbTotal {
+    0% {
+        bottom: 0;
+        background-color: rgb(255, 0, 0);
+    }
+
+    30% {
+        bottom: 140px;
+        background-color: rgb(198, 243, 0);
+    }
+
+    40% {
+        bottom: 150px;
+        background-color: rgb(21, 255, 0);
+    }
+
+    50% {
+        bottom: 150px;
+        background-color: rgb(0, 255, 242);
+    }
+
+    60% {
+        bottom: 150px;
+        background-color: rgb(4, 0, 255);
+    }
+
+    70% {
+        bottom: 140px;
+        background-color: rgb(255, 0, 234);
+    }
+
+    100% {
+        bottom: 0;
+        background-color: rgb(255, 0, 85);
+    }
+}
